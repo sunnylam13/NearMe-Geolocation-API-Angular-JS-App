@@ -47,3 +47,62 @@ html, body, #map_canvas {
   right: 0;
   left: 0;
 }
+
+/*================================================
+ABOUT PAGE
+=================================================*/
+  /* 
+  * Near Me 3
+  * 
+  */
+
+  section.about-me {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  section.about-me div {
+    text-align: center;
+  }
+
+  section.about-me div h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  section.about-me div h2 {
+    font-size: 36.8px;
+    font-weight: lighter;
+    margin-bottom: 1em;
+  }
+
+  section.about-me div button {
+    font-size: 16px;
+    border:none;
+    background: #3388CD;
+    color: white;
+    padding: 1.5em 2em 1.5em 2em;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+    section.about-me div button:hover {
+      background: white;
+      color: #3388CD;
+      outline: 2px solid #3388CD;
+    }
+  
+
+/*================================================ */
