@@ -6,6 +6,7 @@
 /* 
 * Near Me Part 2
 * The app displays places of interest on a map. When you click on a map marker, a popup with a message displays.
+* http://s3.amazonaws.com/codecademy-content/projects/4/nearme-2/index.html
 */
 
 
