@@ -44,5 +44,4 @@ app.controller('MainController', ['$scope','places','ngRoute', function($scope,p
   /////     END MARKERS ATTRIBUTE
   ///////////////////////////////////////////////  
 
-
 }]);
