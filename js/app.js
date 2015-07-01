@@ -20,7 +20,7 @@ Cut the <div class="main"< section from index.html, and paste it into views/main
 * In views/main.html, remove the ng-controller="MainController" from <div class="main">.
 */
 
-var app = angular.module("NearMeApp",['leaflet-directive']);
+var app = angular.module("NearMeApp",['leaflet-directive','ngRoute']);
 
 ////////////////////////////////////////////
 /////     ROUTES

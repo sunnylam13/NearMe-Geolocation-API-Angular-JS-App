@@ -1,4 +1,4 @@
-app.controller('MainController', ['$scope','places','ngRoute', function($scope,places) {
+app.controller('MainController', ['$scope','places', function($scope,places) {
   
   ////////////////////////////////////////////
   /////     CENTER ATTRIBUTE
